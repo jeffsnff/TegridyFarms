@@ -1,0 +1,9 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    background-color: rgb(60, 58, 58);
+}
+.navBar > a{
+    color: rgb(63, 193, 63);
+}

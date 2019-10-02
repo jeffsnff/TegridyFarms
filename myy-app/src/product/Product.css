@@ -1,0 +1,40 @@
+@media (min-width: 700px){
+	.productContainer {
+		justify-content: space-around;
+		display: flex;
+		flex-wrap: wrap;
+		width: 100vw;
+		padding: 10px;
+		height: 83.4vh;
+		overflow: scroll;
+	}
+	.product {
+		margin: 25px;
+		box-shadow: 5px 5px 10px rgb(0, 0, 0);
+		display: grid;
+		grid-template-rows: 70px auto;
+		text-align: center;
+		width: 200px;
+	}
+	.product > img {
+		height: 200px;
+		width: 200px;
+	}  
+	.details{
+		overflow: scroll;
+		height: 88.2vh;
+		text-align: center;
+	}
+	 .details > ol {
+		display: inline-block;
+		margin: 20px;
+	} 
+	.details > img {
+		height: 50vh;
+		width: 50vw
+	}
+}
+ 
+ 
+ 
+ 

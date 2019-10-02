@@ -1,0 +1,16 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.home {
+    display: flex;
+    background-image: url("../photos/TegFarmsFarm.jpg");
+    background-size: cover;
+    background-position: 0% 25%;
+    height: 88.2vh;
+    font-size: 4em;
+    color: white;
+    align-items: center; 
+    justify-content: center;
+}

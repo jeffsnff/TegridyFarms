@@ -1,0 +1,54 @@
+ @media (min-width: 700px) {
+    .aboutContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 88.2vh;
+        overflow: scroll;
+    }
+    .aboutContainer > h1 {
+        text-align: center;
+        width: 100vw;
+        font-size: 100px;
+    }
+    .howStarted {
+        margin-bottom: 20px;
+        font-size: 20px;
+        width: 600px;
+    }
+    .howStarted > img {
+        height: 200px;
+        width: 300px;
+        float: left;
+        margin-right: 10px;
+    }
+    .family {
+        margin-bottom: 20px;
+        width: 600px;
+        font-size: 20px;
+    }
+    .family > img {
+        height: 200px;
+        width: 350px;
+        float: right;
+        margin-left: 10px;
+    }
+    .family > h2 {
+        text-align: right;
+    }
+    .tegridy {
+        width: 600px;
+        font-size: 20px;
+    }
+    .tegridy > img {
+        height: 200px;
+        width: 300px;
+        float: right;
+        margin-left: 10px;
+    }
+    .tegridy > h2 {
+        text-align: left;
+    }
+ }
+ 

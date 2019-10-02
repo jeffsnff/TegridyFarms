@@ -1,0 +1,22 @@
+@media(min-width: 701px){
+    .entryForm {
+        height: 88.2vh;
+        overflow: scroll;
+    }
+    .entryForm > h1 {
+        text-align: center;
+    }
+    form {
+        text-align: center;
+    }
+    .letter {
+        height: 300px;
+        width: 520px;
+    }  
+    input {
+        font-size: 30px;
+    }
+    button {
+        font-size: 30px;
+    }
+}

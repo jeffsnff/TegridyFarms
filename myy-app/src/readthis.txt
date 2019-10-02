@@ -1,0 +1,5 @@
+These are my project ideas to continue building this.
+
+
+I might have to use Route, so that I can do something like amazon product page and then detail page.
+I want to create a splash page while my page is loading or doing a search for api? I would have to do a set time out function
