@@ -14,7 +14,7 @@ const Footer = () => {
     
     return (
         <div className="footer">
-            <a href="https://github.com/jeffsnff"><img src={github} alt="my github profile link"/></a>
+            <a href="https://github.com/jeffsnff" target="_blank" rel="noopener noreferrer"><img src={github} alt="my github profile link"/></a>
             <p>1402 Tegridy Farms,<br/> Colorado Farm, CO</p>
             <a href="https://twitter.com/tegridy_farms?lang=en" rel="noopener noreferrer" target="_blank"><img src={twitter} alt="twitter link"/></a>
         </div>
