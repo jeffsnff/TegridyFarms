@@ -19,4 +19,8 @@
     button {
         font-size: 30px;
     }
+    form > div {
+        display: flex;
+        justify-content: center;
+    }
 }

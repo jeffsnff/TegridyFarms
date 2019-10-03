@@ -33,6 +33,14 @@
 		height: 50vh;
 		width: 50vw
 	}
+	.dumb {
+		margin: 10px;
+		display: flex;
+		justify-content: center;
+	}
+	.dumb > p {
+		width: 600px;
+	}
 }
  
  

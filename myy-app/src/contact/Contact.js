@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Contact.css'
+import randyThanks from '../photos/randyThanks.png'
 
 class Contact extends Component {
     constructor(){
@@ -7,7 +8,8 @@ class Contact extends Component {
         this.state = {
             name: "",
             email: "",
-            message: ""
+            message: "",
+            display: "none"
         }
     }
     handleChange = (event) => {
@@ -15,6 +17,7 @@ class Contact extends Component {
             [event.target.name]: event.target.value
         })
     }
+    
     handleSubmit = (event) => {
         event.preventDefault()
         const newMessage = {
@@ -22,12 +25,15 @@ class Contact extends Component {
             email: this.state.email,
             message: this.state.message
         }
+        
         alert(
             `Name: ${newMessage.name}
             Email: ${newMessage.email}
-            Message: ${newMessage.message}` //Can i give a thumbs up picture of randy marsh
+            Message: ${newMessage.message}
+            ` //Can i give a thumbs up picture of randy marsh
         )
-        this.setState({name: "", email: "", message:  ""})
+        
+        this.setState({name: "", email: "", message:  "", display:"block"})
     }
     render(){
         return(
@@ -37,7 +43,10 @@ class Contact extends Component {
                     <input name="name" value={this.state.name} onChange={this.handleChange} type="text" placeholder="Full Name"></input>
                     <input name="email" value={this.state.email} onChange={this.handleChange} type="text" placeholder="Email Address"></input><br />
                     <input name="message" value={this.state.message} onChange={this.handleChange} className="letter" type="text" placeholder="Type Here"></input><br/>
-                    <button>Send</button>
+                    <button>Send</button><br/>
+                    <div>
+                        <img value={this.state.display} onChange={this.handleChange} style={{display:this.state.display}}src={randyThanks} alt="Thanksssss"/>
+                    </div>
                 </form>
             </div>
         )

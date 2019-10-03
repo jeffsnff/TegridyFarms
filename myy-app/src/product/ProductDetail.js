@@ -39,11 +39,13 @@ class ProductDetail extends Component {
                 <div className="details">
                     <h1>{foundItem.name}</h1>
                     <h3>{foundItem.race}</h3>
-                    <ol>Negative Effects{negativeBenefits}</ol>
-                    <ol>Medical Benefits{medicalBenefits}</ol>
-                    <ol>Positive Benefits{positiveBenefits}</ol>
-                    <ol>Flavors{flavors}</ol><br/>
-                    <p>Description : {this.state.description}</p>
+                    <ol><b>Negative Effects</b>{negativeBenefits}</ol>
+                    <ol><b>Medical Benefits</b>{medicalBenefits}</ol>
+                    <ol><b>Positive Benefits</b>{positiveBenefits}</ol>
+                    <ol><b>Flavors</b>{flavors}</ol><br/>
+                    <div className="dumb">
+                        <p><b>Description</b> : {this.state.description}</p>
+                    </div>
                     <img src={img} alt={img} />
             </div>
             
