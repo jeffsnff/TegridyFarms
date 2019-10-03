@@ -7,7 +7,7 @@ import Footer from './footer/Footer.js'
 import Contact from './contact/Contact.js'
 import { Switch, Route } from 'react-router-dom'
 import ProductDetail from './product/ProductDetail.js';
-
+// adding commit to push code
 function App() {
 return (
 	<div>
