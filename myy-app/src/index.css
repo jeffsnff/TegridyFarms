@@ -21,6 +21,7 @@
 	}
 	.home {
 		width: 100vw;
+		
 		text-align: center;
 	}
 	.homeText {
@@ -67,6 +68,9 @@
 		display: flex;
 		flex-direction: column;
 		text-align: center;
+	}
+	form > div > img {
+		width: 100vw;
 	}
 	.letter {
 		height: 200px;
