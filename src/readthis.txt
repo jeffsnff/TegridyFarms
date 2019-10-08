@@ -3,3 +3,16 @@ These are my project ideas to continue building this.
 
 I might have to use Route, so that I can do something like amazon product page and then detail page.
 I want to create a splash page while my page is loading or doing a search for api? I would have to do a set time out function
+
+Ideas to implament
+
+-Shopping cart 
+-loading screen for products (towelly smoking)
+-save to local storage while in shopping cart 
+-filter based on race ( hybrid, inca, etc)
+-when submit shopping cart, print out reciept
+-tour description and selection which goes to shopping cart
+-maybe another product page for tshirts and such 
+-user login 
+    - admin
+    - customer
