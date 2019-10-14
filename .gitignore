@@ -1,4 +1,2 @@
 node_modules/
 .env
-
-// "deploy": "npm run build && mv build/index.html build/200.html && surge build"

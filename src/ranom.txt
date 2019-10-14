@@ -1,0 +1,5 @@
+// This is for surge stuff
+    // Goes in CNAME
+        tegridyfarms.surge.sh
+    // Goes into Package.json
+        "deploy": "npm run build && mv build/index.html build/200.html && surge build"
