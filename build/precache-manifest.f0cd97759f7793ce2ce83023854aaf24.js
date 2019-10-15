@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adc962cad0f918dfe9469960e75ce399",
+    "revision": "c4f2a2d856bd53b30623c845f2c57c58",
     "url": "/TegridyFarms/index.html"
   },
   {
-    "revision": "abb97453ef55d525ce13",
+    "revision": "8bad5373e590d62f3d64",
     "url": "/TegridyFarms/static/css/main.28082bdf.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TegridyFarms/static/js/2.04f5cc22.chunk.js"
   },
   {
-    "revision": "abb97453ef55d525ce13",
-    "url": "/TegridyFarms/static/js/main.b4c26778.chunk.js"
+    "revision": "8bad5373e590d62f3d64",
+    "url": "/TegridyFarms/static/js/main.f99c507b.chunk.js"
   },
   {
     "revision": "34c2f9d43cacc646eab2",

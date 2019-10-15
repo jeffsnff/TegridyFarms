@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TegridyFarms/precache-manifest.8d2efbeaa9a458148f1aede14eae205e.js"
+  "/TegridyFarms/precache-manifest.f0cd97759f7793ce2ce83023854aaf24.js"
 );
 
 self.addEventListener('message', (event) => {
