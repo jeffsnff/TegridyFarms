@@ -16,3 +16,4 @@ Ideas to implament
 -user login 
     - admin
     - customer
+- censor button that censors the `bad` stuff and then replaces it with chinese things.
