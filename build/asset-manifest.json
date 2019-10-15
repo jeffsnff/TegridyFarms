@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/TegridyFarms/static/css/main.28082bdf.chunk.css",
-    "main.js": "/TegridyFarms/static/js/main.f99c507b.chunk.js",
-    "main.js.map": "/TegridyFarms/static/js/main.f99c507b.chunk.js.map",
-    "runtime~main.js": "/TegridyFarms/static/js/runtime~main.cce25e2c.js",
-    "runtime~main.js.map": "/TegridyFarms/static/js/runtime~main.cce25e2c.js.map",
-    "static/js/2.04f5cc22.chunk.js": "/TegridyFarms/static/js/2.04f5cc22.chunk.js",
-    "static/js/2.04f5cc22.chunk.js.map": "/TegridyFarms/static/js/2.04f5cc22.chunk.js.map",
-    "index.html": "/TegridyFarms/index.html",
-    "precache-manifest.f0cd97759f7793ce2ce83023854aaf24.js": "/TegridyFarms/precache-manifest.f0cd97759f7793ce2ce83023854aaf24.js",
-    "service-worker.js": "/TegridyFarms/service-worker.js",
-    "static/css/main.28082bdf.chunk.css.map": "/TegridyFarms/static/css/main.28082bdf.chunk.css.map",
-    "static/media/TegFarmsFamily.jpg": "/TegridyFarms/static/media/TegFarmsFamily.11ed5ef2.jpg",
-    "static/media/Home.css": "/TegridyFarms/static/media/TegFarmsFarm2.35c4ff44.jpg",
-    "static/media/TegFarmsStarted.jpeg": "/TegridyFarms/static/media/TegFarmsStarted.b0968fca.jpeg",
-    "static/media/TegFarmsTegridy.jpg": "/TegridyFarms/static/media/TegFarmsTegridy.75e32379.jpg",
-    "static/media/TegridyWeed.jpg": "/TegridyFarms/static/media/TegridyWeed.0da7d18f.jpg",
-    "static/media/randyThanks.png": "/TegridyFarms/static/media/randyThanks.0c959ddb.png"
+    "main.css": "/static/css/main.eb0c5487.chunk.css",
+    "main.js": "/static/js/main.f99c507b.chunk.js",
+    "main.js.map": "/static/js/main.f99c507b.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.e85a9b42.js",
+    "runtime~main.js.map": "/static/js/runtime~main.e85a9b42.js.map",
+    "static/js/2.04f5cc22.chunk.js": "/static/js/2.04f5cc22.chunk.js",
+    "static/js/2.04f5cc22.chunk.js.map": "/static/js/2.04f5cc22.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1d479cda7cfc38a4e26dd1f2be36fa24.js": "/precache-manifest.1d479cda7cfc38a4e26dd1f2be36fa24.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.eb0c5487.chunk.css.map": "/static/css/main.eb0c5487.chunk.css.map",
+    "static/media/TegFarmsFamily.jpg": "/static/media/TegFarmsFamily.11ed5ef2.jpg",
+    "static/media/Home.css": "/static/media/TegFarmsFarm2.35c4ff44.jpg",
+    "static/media/TegFarmsStarted.jpeg": "/static/media/TegFarmsStarted.b0968fca.jpeg",
+    "static/media/TegFarmsTegridy.jpg": "/static/media/TegFarmsTegridy.75e32379.jpg",
+    "static/media/TegridyWeed.jpg": "/static/media/TegridyWeed.0da7d18f.jpg",
+    "static/media/randyThanks.png": "/static/media/randyThanks.0c959ddb.png"
   }
 }
