@@ -11,6 +11,8 @@
     color: rgb(63, 193, 63);
 }
 .footer > a > img {
+    position: fixed;
+    margin: 10px;
     border-radius: 100%;
     width: 40px;
     height: 40px;
