@@ -11,7 +11,10 @@ function About(){
             <div  className="howStarted">
                 <h2>How we got started</h2>
                 <img src={TegFarmsStarted} alt="We Started!"/>
-                <div>With all the school shootings, priest having sex with little boys, and kids sending nude pictures to each other. My wife and I decided to start a farm where people actually have some tegridy. So we sold our house, and moved to Colordo Farms, Colorado to get a fresh start for our family.</div>
+                <div>
+                    My wife and I decided to start a farm where people actually have some tegridy. So we sold our house, and moved to Colordo Farms, Colorado to get a fresh start for our family.
+                </div>
+                {/* <div>With all the school shootings, priest having sex with little boys, and kids sending nude pictures to each other. My wife and I decided to start a farm where people actually have some tegridy. So we sold our house, and moved to Colordo Farms, Colorado to get a fresh start for our family.</div> */}
             </div>
             <div  className="family">
                 <h2>The Family</h2>

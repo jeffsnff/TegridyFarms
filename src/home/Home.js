@@ -1,6 +1,4 @@
 import React from 'react';
-import ProductList from "../product/ProductList.js";
-import About from "../aboutus/About.js"
 import './Home.css'
 
 function Home(){
