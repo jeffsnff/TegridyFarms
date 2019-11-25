@@ -16,12 +16,34 @@ class ProductList extends Component {
 		this.handleChange = this.handleChange.bind(this)
 	}
 
-	 componentDidMount(){
-		this.getProducsts()
+	 componentDidMount(race){
+		 if(race === undefined){
+			 this.getProducts()
+		 }else{
+			 this.getStrains(race)
+		 }
+		
 	}
 	
-	getProducsts = () => {
-		axios.get(`http://strainapi.evanbusse.com/${process.env.REACT_APP_KEY}/strains/search/all`)
+	getProducts = () => {
+			axios.get(`http://strainapi.evanbusse.com/${process.env.REACT_APP_KEY}/strains/search/all`)
+			.then(response => this.setState({products: Object.keys(response.data).map((name) => {
+				return {
+					name:name,
+					...response.data[name]
+				}
+			}),
+			filtered: Object.keys(response.data).map((name) => {
+				return {
+					name:name,
+					...response.data[name]
+				}
+			})
+			}))
+			.catch(error => console.log(error))	
+	}
+	getStrains = (race) => {
+		axios.get(`http://strainapi.evanbusse.com/${process.env.REACT_APP_KEY}/strains/search/race/${race}`)
 			.then(response => this.setState({products: Object.keys(response.data).map((name) => {
 				return {
 					name:name,
@@ -84,12 +106,18 @@ class ProductList extends Component {
 
 		return (
 			<div>
-				<form> 
-					<input  type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search Products"></input>
-				</form>
+				<div>
+					<button onClick={() => this.componentDidMount()}>All</button>
+					<button onClick={() => this.componentDidMount('indica')}>Indica</button>
+					<button onClick={() => this.componentDidMount('sativa')}>Sativa</button>
+					<button onClick={() => this.componentDidMount('hybrid')}>Hybrid</button>
+					<form> 
+					<input className="search"  type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search Products"></input>
+					</form>
+				</div>
 				<div className="productContainer">
-				{mappedFilter}
-			</div>
+					{mappedFilter}
+				</div>
 			</div>
 			
 		)
