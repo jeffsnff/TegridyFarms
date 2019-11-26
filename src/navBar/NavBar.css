@@ -1,9 +1,69 @@
-.navBar {
-    display: flex;
-    justify-content: space-around;
-    font-size: 2em;
-    background-color: rgb(60, 58, 58);
+.navigation-menu {
+    position: relative;
+    width: 100vw;
+    height: 104px;
 }
-.navBar > a{
-    color: rgb(63, 193, 63);
+.headerContainer {
+    position: absolute;
+    height: 104px;
+    background: #667d60;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.15);
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 80px;
+    height: 104px;
+    left: 208px;
+}
+.icon{
+    width: 80%; 
+}
+.navigation{
+   position: absolute;
+   width: 287px;
+   height: 100%;
+   left: 1350px;
+   top: 0;
+}
+.contactDiv {
+    position: absolute;
+    left: 68.99%;
+    right: 0;
+    top: 0;
+    bottom: 0;  
+}
+.contactLink, .aboutLink, .strainsLink {
+    position: absolute;
+    height: 24px;
+    left: 16px;
+    right: 16px;
+    top: calc(50% - 24px/2);
+
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.aboutDiv {
+    position: absolute;
+    left: 42.51%;
+    right: 31.01%;
+    top: 0;
+    bottom: 0;
+}
+.strainsDiv {
+    position: absolute;
+    left: 0%;
+    right: 57.49%;
+    top: 0;
+    bottom: 0;
 }
