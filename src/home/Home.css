@@ -1,16 +1,98 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 .home {
-    display: flex;
     background-image: url("../photos/TegFarmsFarm2.jpg");
     background-size: cover;
-    background-position: 0% 25%;
-    height: 88.2vh;
-    font-size: 4em;
-    color: white;
-    align-items: center; 
-    justify-content: center;
+
+    /* display: flex;
+    flex-direction: column; */
+
+    width: 100vw;
+    height: 85vh;
+
+    /* align-items: center; 
+    justify-content: center; */
+}
+.homeText{
+    left: 23.75%;
+    right: 23.89%;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    /* line-height: 73px; */
+    letter-spacing: -0.5px;
+
+}
+.about{
+    font-size: 16px;
+}
+.button{
+    font-size: 25px;
+}
+.second-container{
+    width: 100vw;
+    height: 80vh;
+} 
+.haha {
+    position: relative;
+    top: 25%;
+    height: 400px;
+}
+.haha > img{
+    position: relative;
+    left: 25%;
+    top: 45px;
+    width: 400px;
+    height: 300px;
+    border-radius: 3%;
+}
+.stuff{
+    position: relative;
+    left: 55%;
+    top: -50%;
+    height: 184px;
+    width: 472px;
+}
+.stuff > h3 {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+.stuff > p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+
+}
+.rrrhhh{
+    position: absolute;
+    height: 32px;
+    left: 55%;
+    right: 16px;
+    top: 70%;
+    width: 126px;
+    background-color: #667d60;
+    border-radius: 4px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
 }
