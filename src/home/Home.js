@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import Frame from '../photos/Frame.png'
 
 import cannabis from '../photos/cannabis.jpg'
 
@@ -20,7 +21,7 @@ function Home(){
 
         <div className="second-container">
             <div className="haha">
-                <img src={cannabis} alt="this" />
+                <img src={Frame} alt="this" />
                  <div className="stuff">
                     <h3>Why Tegridy?</h3>
                     <p>
