@@ -9,7 +9,7 @@ function NavBar(){
         <div className="headerContainer">
             <ul className="navigation-menu">
                 <div className='logo'>
-                    <Link to="/"><img className='icon' src={logo} /></Link>
+                    <Link to="/"><img className='icon' src={logo} alt="logo" /></Link>
                 </div>
                 
 
