@@ -3,57 +3,92 @@
     padding: 0;
 }
 .home {
-    background-image: url("../photos/TegFarmsFarm2.jpg");
-    background-size: cover;
-
-    /* display: flex;
-    flex-direction: column; */
+    position: relative;
+    top: 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
 
     width: 100vw;
-    height: 85vh;
+    height: 576px;
 
-    /* align-items: center; 
-    justify-content: center; */
+} 
+.farm{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 576px;
+    
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 576px;
+    background: rgba(61, 58, 59, 0.67);
 }
 .homeText{
-    left: 23.75%;
-    right: 23.89%;
-
+    z-index: 1;
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
-    /* line-height: 73px; */
+    line-height: 73px; 
     letter-spacing: -0.5px;
+    color: #ffffff;
 
 }
 .about{
-    font-size: 16px;
+    z-index: 1;
+    height: 84px;
+    width: 536px;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #ffffff;
 }
 .button{
-    font-size: 25px;
+    position: relative;
+    top: 50px;
+    border: none;
+    height: 36px;
+    width: 167px;
+    border-radius: 4px;
+    background-color: #667d60;
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 .second-container{
+    display: flex;
+    justify-content: center;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 } 
 .haha {
     position: relative;
     top: 25%;
-    height: 400px;
+    height: 384px;
+    width: 1008px;
 }
 .haha > img{
-    position: relative;
-    left: 25%;
-    top: 45px;
-    width: 400px;
-    height: 300px;
-    border-radius: 3%;
+    width: 504px;
+    height: 384px;
+    border-radius: 4px;
 }
-.stuff{
-    position: relative;
-    left: 55%;
-    top: -50%;
+ .stuff{
+    position: absolute;
+    top: 80px;
+    left: 550px; 
+  
     height: 184px;
     width: 472px;
 }
@@ -73,7 +108,6 @@
     font-size: 18px;
     line-height: 28px;
     color: #000000;
-
 }
 .rrrhhh{
     position: absolute;
@@ -84,7 +118,7 @@
     width: 126px;
     background-color: #667d60;
     border-radius: 4px;
-
+    border: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
