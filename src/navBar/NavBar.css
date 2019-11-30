@@ -53,6 +53,9 @@
     letter-spacing: 0.15px;
     color: rgba(255, 255, 255, 0.6);
 }
+.strainsLink{
+    opacity: .6;
+}
 .aboutDiv {
     position: absolute;
     left: 42.51%;
@@ -66,4 +69,34 @@
     right: 57.49%;
     top: 0;
     bottom: 0;
+}
+.strainModule {
+    z-index: 2;
+    position: relative;
+    top: 110px;
+
+    height: 224px;
+    width: 122px;
+    
+    box-shadow: 16px 15px 24px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+}
+.allLink, .indicaLink, .sativaLink, .hybridLink {
+    height: 56px;
+    background-color: #ffffff;
+    padding: 15px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+
+    color: #3d3a3b;
+    text-decoration: none;
+}
+.allLink:hover, .indicaLink:hover, .sativaLink:hover, .hybridLink:hover{
+    background-color: green;
+    color: white;
 }
