@@ -10,7 +10,7 @@ function Home(){
 
         <div className="home">
             <div className="overlay">
-                <img className="farm" src={farm} />
+                <img className="farm" src={farm} alt="family fdarm" />
             </div>
             
             <h1 className="homeText">Tegridy Farms Strain Finder</h1>

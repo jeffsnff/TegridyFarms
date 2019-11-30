@@ -22,7 +22,6 @@ class ProductList extends Component {
 		 }else{
 			 this.getStrains(race)
 		 }
-		
 	}
 	
 	getProducts = () => {
