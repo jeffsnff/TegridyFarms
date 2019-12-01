@@ -15,7 +15,6 @@ class NavBar extends Component {
 
     toggler = () => {
         this.setState({toggle: !this.state.toggle})
-        
     }
     
     render(){
@@ -44,7 +43,7 @@ class NavBar extends Component {
                             {
                                 this.state.toggle ?
                                     <div className="strainModule">
-                                        <Link className='allLink' to='/ProductList'>All Strains</Link>
+                                        <Link onClick={() => this.toggler()} className='allLink' to='/ProductList'>All Strains</Link>
                                         <Link className='indicaLink' to='/ProductList'>Indica</Link>
                                         <Link className='sativaLink' to='/ProductList'>Sativa</Link>
                                         <Link className='hybridLink' to='/ProductList'>Hybrid</Link>
