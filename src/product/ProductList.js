@@ -94,24 +94,29 @@ class ProductList extends Component {
 			mappedFilter = this.state.filtered.map(filter => 
 				<Product 
 					key={filter.id}
+					race={filter.race}
 					id={filter.id}
 					name={filter.name}
 					img={TegridyWeed}
 					array={this.state.filtered}
 				/>)
+				console.log(mappedFilter)
 		}else{
 			this.resetFilter()
 		} 
 
 		return (
 			<div>
+				<div className="empty">
+					trying to push this down
+				</div>
 				<div>
-					<button onClick={() => this.componentDidMount()}>All</button>
+					<div onClick={() => this.componentDidMount()}>All</div>
 					<button onClick={() => this.componentDidMount('indica')}>Indica</button>
 					<button onClick={() => this.componentDidMount('sativa')}>Sativa</button>
 					<button onClick={() => this.componentDidMount('hybrid')}>Hybrid</button>
 					<form> 
-					<input className="search"  type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search Products"></input>
+						<input className="search"  type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search Products"></input>
 					</form>
 				</div>
 				<div className="productContainer">

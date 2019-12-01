@@ -5,8 +5,11 @@
 		flex-wrap: wrap;
 		width: 100vw;
 		padding: 10px;
-		height: 83.4vh;
+		height: 85vh;
 		overflow: scroll;
+	}
+	.empty{
+		height: 100px;
 	}
 	.product {
 		margin: 25px;
