@@ -4,10 +4,11 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        height: 88.2vh;
-        overflow: scroll;
+        /* height: 88.2vh; */
+        /* overflow: scroll; */
     }
     .aboutContainer > h1 {
+        padding-top: 100px;
         text-align: center;
         width: 100vw;
         font-size: 100px;

@@ -18,11 +18,14 @@ class ProductDetail extends Component {
         const {id, array, img} = this.props.location.state
         
         const foundItem = array.find(item => {
+            console.log(item.id)
             if(id === item.id){
+                console.log(item)
                 return item
             }
             return null
         })
+        console.log(foundItem.effects)
         const medicalBenefits = foundItem.effects.medical.map((benefit, i) => {
             return <li key={i}>{benefit}</li>
         })

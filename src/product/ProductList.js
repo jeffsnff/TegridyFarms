@@ -107,11 +107,8 @@ class ProductList extends Component {
 
 		return (
 			<div>
-				<div className="empty">
-					trying to push this down
-				</div>
-				<div>
-					<div onClick={() => this.componentDidMount()}>All</div>
+				<div className="filter">
+					<button onClick={() => this.componentDidMount()}>All</button>
 					<button onClick={() => this.componentDidMount('indica')}>Indica</button>
 					<button onClick={() => this.componentDidMount('sativa')}>Sativa</button>
 					<button onClick={() => this.componentDidMount('hybrid')}>Hybrid</button>

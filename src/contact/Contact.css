@@ -1,5 +1,6 @@
 @media(min-width: 701px){
     .entryForm {
+        padding-top: 150px;
         height: 88.2vh;
         overflow: scroll;
     }
