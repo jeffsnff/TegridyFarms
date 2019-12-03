@@ -5,11 +5,8 @@
 		flex-wrap: wrap;
 		width: 100vw;
 		padding: 10px;
-		height: 85vh;
+		height: 100vh;
 		overflow: scroll;
-	}
-	.empty{
-		height: 100px;
 	}
 	.product {
 		margin: 25px;
@@ -22,10 +19,17 @@
 	.product > img {
 		height: 200px;
 		width: 200px;
-	}  
+	} 
+	.filter{
+		padding-top: 100px;
+		text-align: center;
+	}
+	.filter > button {
+		padding: 1%;
+		border: none;
+	}
 	.details{
-		overflow: scroll;
-		height: 88.2vh;
+		padding-top: 110px;
 		text-align: center;
 	}
 	 .details > ol {
