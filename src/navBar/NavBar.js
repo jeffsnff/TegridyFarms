@@ -55,6 +55,7 @@ class NavBar extends Component {
 
                         <div className="aboutDiv">
                             <Link className='aboutLink' to="/About">About</Link>
+                            <div className="aboutLine">Working on this</div>
                         </div>
 
                         <div className="contactDiv">
