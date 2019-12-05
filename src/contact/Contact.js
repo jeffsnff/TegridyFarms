@@ -39,16 +39,17 @@ class Contact extends Component {
         return(
             <div className="entryForm">
                 <h1>Drop Us A Line</h1>
+                <div className="twoLine"></div>
                 <form onSubmit={this.handleSubmit}>
                     <h3>Leave Your Message Below</h3>
                     <input name="name" value={this.state.name} onChange={this.handleChange} type="text" placeholder="Full Name"></input><br/>
                     <input name="email" value={this.state.email} onChange={this.handleChange} type="text" placeholder="Email Address"></input><br />
                     <input name="message" value={this.state.message} onChange={this.handleChange} className="letter" type="text" placeholder="Type Here"></input><br/>
-                    <button>Send</button><br/>
-                    <div>
-                        <img value={this.state.display} onChange={this.handleChange} style={{display:this.state.display}}src={randyThanks} alt="Thanksssss"/>
-                    </div>
+                    <button>Submit Message</button><br/>
                 </form>
+                <div className="thankPic">
+                        <img value={this.state.display} onChange={this.handleChange} style={{display:this.state.display}}src={randyThanks} alt="Thanksssss"/>
+                </div>
             </div>
         )
     }
