@@ -20,16 +20,42 @@
 		height: 200px;
 		width: 200px;
 	} 
-	.filter{
-		padding-top: 100px;
+	.shhLine{
+		border: 1px solid black;
+		width: 159px;
+		position: relative;
+		left: 45%;
+		margin-top: 20px;
+	}
+	.shhhh{
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 60px;
+		letter-spacing: -0.5px;
 		text-align: center;
+		padding-top: 10%;
+		text-align: center;
+	}
+	.filter{
+		padding-top: 5%;
+	}
+	.search{
+		position: relative;
+		left: 26.5%;
+		width: 679px;
+		height: 104px;
+		text-align: center;
+		background-color: #667D60;
+		margin-bottom: 5%;
+	}
+	.searchField{
+		font-size: 26px;
+		border-radius: 8px;
 	}
 	.filter > button {
 		padding: 1%;
 		border: none;
 	}
-
-
 	.details{
 		padding-top: 110px;
 		text-align: center;
@@ -175,9 +201,37 @@
 		height: 200px;
 		width: 200px;
 	} 
-	.filter{
-		padding-top: 100px;
+	.shhLine{
+		border: 1px solid black;
+		width: 159px;
+		position: relative;
+		left: 45%;
+		margin-top: 20px;
+	}
+	.shhhh{
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 60px;
+		letter-spacing: -0.5px;
 		text-align: center;
+		padding-top: 10%;
+		text-align: center;
+	}
+	.filter{
+		padding-top: 80px;
+	}
+	.search{
+		position: relative;
+		left: 32%;
+		width: 679px;
+		height: 104px;
+		text-align: center;
+		background-color: #667D60;
+		margin-bottom: 3%;
+	}
+	.searchField{
+		font-size: 26px;
+		border-radius: 8px;
 	}
 	.filter > button {
 		padding: 1%;

@@ -107,14 +107,17 @@ class ProductList extends Component {
 
 		return (
 			<div>
+				<h1 className="shhhh">Find Your Strain</h1>
+				<div className="shhLine"></div>
 				<div className="filter">
-					<button onClick={() => this.componentDidMount()}>All</button>
+					{/* <button onClick={() => this.componentDidMount()}>All</button>
 					<button onClick={() => this.componentDidMount('indica')}>Indica</button>
 					<button onClick={() => this.componentDidMount('sativa')}>Sativa</button>
-					<button onClick={() => this.componentDidMount('hybrid')}>Hybrid</button>
-					<form> 
-						<input className="search"  type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search Products"></input>
-					</form>
+					<button onClick={() => this.componentDidMount('hybrid')}>Hybrid</button> */}
+					<div className="search">
+						
+						<input className="searchField"  type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search Products"></input>
+					</div> 
 				</div>
 				<div className="productContainer">
 					{mappedFilter}
