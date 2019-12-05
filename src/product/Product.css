@@ -1,3 +1,4 @@
+/* Screens smaller than 1440px (laptop) */
 @media (max-width: 1440px){
 	.productContainer {
 		justify-content: space-around;
@@ -8,18 +9,46 @@
 		height: 100vh;
 		overflow: scroll;
 	}
+	
 	.product {
-		margin: 25px;
-		box-shadow: 5px 5px 10px rgb(0, 0, 0);
+		color: #ffffff;
+		margin: 10px;
+		box-shadow: 16px 16px 24px rgba(0, 0, 0, 0.25);
 		display: grid;
 		grid-template-rows: 70px auto;
-		text-align: center;
-		width: 200px;
+		width: 244px;
+		height: 320px;
+		border-radius: 8px;
+
+		background: linear-gradient(0deg, #3D3A3B 0%, rgba(61, 58, 59, 0.24) 66.08%);
+
 	}
 	.product > img {
-		height: 200px;
-		width: 200px;
-	} 
+		border-radius: 8px;
+		height: 320px;
+		width: 244px;
+	}
+	.product > h2{
+		margin-left: 15px;
+		position: relative;
+		top: 125px;
+		z-index: 1;
+	}
+	.product > div {
+		position: relative;
+		top: 88px;
+		background-color: #99BF8F;
+		height: 48px;
+		width: 100%;
+		border-bottom-right-radius: 8px;
+		border-bottom-left-radius: 8px;
+	}
+	.product > div > h4{
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 16px;
+		text-align: center;
+	}
 	.shhLine{
 		border: 1px solid black;
 		width: 159px;
@@ -179,6 +208,8 @@
 	}
 	
 }
+
+/* Screens bigger than 1441px (desktop) */
 @media(min-width: 1441px){
 	.productContainer {
 		justify-content: space-around;
@@ -189,18 +220,46 @@
 		height: 100vh;
 		overflow: scroll;
 	}
+	
 	.product {
-		margin: 25px;
-		box-shadow: 5px 5px 10px rgb(0, 0, 0);
+		color: #ffffff;
+		margin: 10px;
+		box-shadow: 16px 16px 24px rgba(0, 0, 0, 0.25);
 		display: grid;
 		grid-template-rows: 70px auto;
-		text-align: center;
-		width: 200px;
+		width: 244px;
+		height: 320px;
+		border-radius: 8px;
+
+		background: linear-gradient(0deg, #3D3A3B 0%, rgba(61, 58, 59, 0.24) 66.08%);
+
 	}
 	.product > img {
-		height: 200px;
-		width: 200px;
-	} 
+		border-radius: 8px;
+		height: 320px;
+		width: 244px;
+	}
+	.product > h2{
+		margin-left: 15px;
+		position: relative;
+		top: 125px;
+		z-index: 1;
+	}
+	.product > div {
+		position: relative;
+		top: 88px;
+		background-color: #99BF8F;
+		height: 48px;
+		width: 100%;
+		border-bottom-right-radius: 8px;
+		border-bottom-left-radius: 8px;
+	}
+	.product > div > h4{
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 16px;
+		text-align: center;
+	}
 	.shhLine{
 		border: 1px solid black;
 		width: 159px;
