@@ -1,4 +1,4 @@
-@media (min-width: 700px){
+@media (max-width: 1440px){
 	.productContainer {
 		justify-content: space-around;
 		display: flex;
@@ -28,28 +28,282 @@
 		padding: 1%;
 		border: none;
 	}
+
+
 	.details{
 		padding-top: 110px;
 		text-align: center;
 	}
-	 .details > ol {
-		display: inline-block;
-		margin: 20px;
-	} 
-	.details > img {
-		height: 50vh;
-		width: 50vw
+	.effects{
+		background-color: #F0F0F0;
+		height: 688px;
+		width: 100vw;
 	}
-	.dumb {
-		margin: 10px;
+	.effects > h1{
+		font-family: Proxima Nova;
+		font-weight: bold;
+		line-height: 58px;
+		letter-spacing: 0.25px;
+		color: #000000;
+		font-size: 48px;
+		border-bottom: 1px solid black;
+		width: 159px;
+		position: relative;
+		left: 46%;
+		top: 20%;
+	}
+	.effectsDetails{
 		display: flex;
 		justify-content: center;
+		position: relative;
+		left: center;
+		top: 30%;
 	}
-	.dumb > p {
-		width: 600px;
+	.effectsDetails > div > h2 {
+		font-size: 24px;
+
+	}
+	.effectsDetails > div{ 
+		width: 242px;
+	}
+	.effectsDetails > div > p{
+		position: relative;
+		left: 30%;
+		font-size: 18px;
+		width: 130px;
+		list-style: none;
+		text-align: left;
+	}
+	.info{
+		margin-top: 10%;
+		width: 100vw;
+		height: 688px;
+	}
+	.info > div {
+		position: relative;
+		left: 25%;
+		width: 50%;
+		height: 500px;
+	}
+	.info > div > img {
+		position: relative;
+		left: -23%;
+		height: 384px;
+		width: 504px;
+		border-radius: 8px;
+	}
+	.info > div > h1{
+		font-family: Proxima Nova;
+		font-size: 50px;
+		font-weight: bold;
+		line-height: 73px;
+		letter-spacing: -0.5px;
+		color: #3d3a3b;
+		width: 385px;
+		position: relative;
+		left: 480px;
+		top: -370px;
+	}
+	.info > div > h3{
+		padding: 1%;
+
+		position: relative;
+		left: 480px;
+		top: -350px;
+		width: 117px; 
+
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 0.15px;
+		color: #ffffff;
+		background-color: #99bf8f;
+	}
+	.info > div > h2{
+		position: relative;
+		top: -320px;
+		left: 480px;
+
+		width: 130px;
+
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+		letter-spacing: 0.5px;
+		color: #3d3a3b;
+
+	}
+	.info > div > p{
+
+		position: relative;
+		top: -300px;
+		left: 480px;
+
+		width: 415px;
+		height: 180px;
+
+		font-family: Roboto;
+		font-size: 13px;
+		line-height: 28px;
+		text-align: left;
+		letter-spacing: 0.5px;
+		color: #3d3a3b;
+	}
+	
+}
+@media(min-width: 1441px){
+	.productContainer {
+		justify-content: space-around;
+		display: flex;
+		flex-wrap: wrap;
+		width: 100vw;
+		padding: 10px;
+		height: 100vh;
+		overflow: scroll;
+	}
+	.product {
+		margin: 25px;
+		box-shadow: 5px 5px 10px rgb(0, 0, 0);
+		display: grid;
+		grid-template-rows: 70px auto;
+		text-align: center;
+		width: 200px;
+	}
+	.product > img {
+		height: 200px;
+		width: 200px;
+	} 
+	.filter{
+		padding-top: 100px;
+		text-align: center;
+	}
+	.filter > button {
+		padding: 1%;
+		border: none;
+	}
+
+
+	.details{
+		padding-top: 110px;
+		text-align: center;
+	}
+	.effects{
+		background-color: #F0F0F0;
+		height: 688px;
+		width: 100vw;
+	}
+	.effects > h1{
+		font-family: Proxima Nova;
+		font-weight: bold;
+		line-height: 58px;
+		letter-spacing: 0.25px;
+		color: #000000;
+		font-size: 48px;
+		border-bottom: 1px solid black;
+		width: 159px;
+		position: relative;
+		left: 46%;
+		top: 20%;
+	}
+	.effectsDetails{
+		display: flex;
+		justify-content: center;
+		position: relative;
+		left: center;
+		top: 30%;
+	}
+	.effectsDetails > div > h2 {
+		font-size: 24px;
+
+	}
+	.effectsDetails > div{ 
+		width: 242px;
+	}
+	.effectsDetails > div > p{
+		position: relative;
+		left: 30%;
+		font-size: 18px;
+		width: 130px;
+		list-style: none;
+		text-align: left;
+	}
+	.info{
+		margin-top: 10%;
+		width: 100vw;
+		height: 688px;
+	}
+	.info > div {
+		position: relative;
+		left: 25%;
+		width: 50%;
+		height: 500px;
+	}
+	.info > div > img {
+		position: relative;
+		left: -23%;
+		height: 384px;
+		width: 504px;
+		border-radius: 8px;
+	}
+	.info > div > h1{
+		font-family: Proxima Nova;
+		font-size: 50px;
+		font-weight: bold;
+		line-height: 73px;
+		letter-spacing: -0.5px;
+		color: #3d3a3b;
+		width: 385px;
+		position: relative;
+		left: 55%;
+		top: -370px;
+	}
+	.info > div > h3{
+		padding: 1%;
+
+		position: relative;
+		left: 55%;
+		top: -350px;
+		width: 117px; 
+
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 0.15px;
+		color: #ffffff;
+		background-color: #99bf8f;
+	}
+	.info > div > h2{
+		position: relative;
+		top: -320px;
+		left: 55%;
+
+		width: 130px;
+
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+		letter-spacing: 0.5px;
+		color: #3d3a3b;
+
+	}
+	.info > div > p{
+
+		position: relative;
+		top: -300px;
+		left: 55%;
+
+		width: 415px;
+		height: 180px;
+
+		font-family: Roboto;
+		font-size: 13px;
+		line-height: 28px;
+		text-align: left;
+		letter-spacing: 0.5px;
+		color: #3d3a3b;
 	}
 }
- 
- 
- 
- 

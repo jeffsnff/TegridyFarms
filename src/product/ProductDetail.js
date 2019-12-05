@@ -40,16 +40,44 @@ class ProductDetail extends Component {
         })
         return(
                 <div className="details">
-                    <h1>{foundItem.name}</h1>
-                    <h3>{foundItem.race}</h3>
-                    <ol><b>Negative Effects</b>{negativeBenefits}</ol>
-                    <ol><b>Medical Benefits</b>{medicalBenefits}</ol>
-                    <ol><b>Positive Benefits</b>{positiveBenefits}</ol>
-                    <ol><b>Flavors</b>{flavors}</ol><br/>
-                    <div className="dumb">
-                        <p><b>Description</b> : {this.state.description}</p>
+
+                    <div className="info">
+                        <div>
+                            <img src={img} alt={img} />
+                            <h1>{foundItem.name}</h1>
+                            <h3>{foundItem.race}</h3>
+                            <h2>Description</h2> 
+                            <p>{this.state.description}</p>
+                        </div>
+                        
                     </div>
-                    <img src={img} alt={img} />
+                        
+                    <div className="effects">
+                        <h1>Effects</h1>
+                        <div className="effectsDetails">
+                            <div>
+                                <h2>Negative</h2>
+                                <p>{negativeBenefits}</p>
+                            </div>
+                            <div>
+                                <h2>Medical</h2>
+                                <p>{medicalBenefits}</p>
+                            </div>
+                            <div>
+                                <h2>Positive</h2>
+                                <p>{positiveBenefits}</p>
+                            </div>
+                            <div>
+                                <h2>Flavors</h2>
+                                <p>{flavors}</p>
+                            </div>
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+        
             </div>
             
         )
