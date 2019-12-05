@@ -27,8 +27,8 @@ class NavBar extends Component {
  
                     <div className="navigation">
                         <div className="strainsDiv">
-                            {/* <Link className='strainsLink' to="/ProductList">Strains</Link> */}
-                            {
+                            <Link className='strainsLink' to="/ProductList">Strains</Link>
+                            {/* {
                                 this.state.toggle ?
                                     <div 
                                         className="strainsLink" 
@@ -38,9 +38,9 @@ class NavBar extends Component {
                                         Strains</div>
                                 :
                                     <div className="strainsLink" onClick={() => this.toggler()}>Strains</div>
-                            }
-                            <div className="strainsLink" onClick={() => this.toggler()}>Strains</div>
-                            {
+                            } */}
+                            {/* <div className="strainsLink" onClick={() => this.toggler()}>Strains</div> */}
+                            {/* {
                                 this.state.toggle ?
                                     <div className="strainModule">
                                         <Link onClick={() => this.toggler()} className='allLink' to='/ProductList'>All Strains</Link>
@@ -50,12 +50,11 @@ class NavBar extends Component {
                                     </div>
                                     :
                                     null
-                            }
+                            } */}
                         </div>
 
                         <div className="aboutDiv">
                             <Link className='aboutLink' to="/About">About</Link>
-                            <div className="aboutLine">Working on this</div>
                         </div>
 
                         <div className="contactDiv">
