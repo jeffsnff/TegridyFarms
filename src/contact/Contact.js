@@ -38,9 +38,10 @@ class Contact extends Component {
     render(){
         return(
             <div className="entryForm">
-                <h1>Contact US</h1>
+                <h1>Drop Us A Line</h1>
                 <form onSubmit={this.handleSubmit}>
-                    <input name="name" value={this.state.name} onChange={this.handleChange} type="text" placeholder="Full Name"></input>
+                    <h3>Leave Your Message Below</h3>
+                    <input name="name" value={this.state.name} onChange={this.handleChange} type="text" placeholder="Full Name"></input><br/>
                     <input name="email" value={this.state.email} onChange={this.handleChange} type="text" placeholder="Email Address"></input><br />
                     <input name="message" value={this.state.message} onChange={this.handleChange} className="letter" type="text" placeholder="Type Here"></input><br/>
                     <button>Send</button><br/>
