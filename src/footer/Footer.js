@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
-import twitter from '../photos/icon_twitter.png'
-import github from '../photos/github.png'
+import twitter from '../photos/twitterLogo.png'
+import github from '../photos/githubLogo.png'
 
 const Footer = () => {
     return (
