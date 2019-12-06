@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fb33d6f.chunk.css",
-    "main.js": "/static/js/main.fa0a6f67.chunk.js",
-    "main.js.map": "/static/js/main.fa0a6f67.chunk.js.map",
+    "main.css": "/static/css/main.ebb22c2a.chunk.css",
+    "main.js": "/static/js/main.486fd9c9.chunk.js",
+    "main.js.map": "/static/js/main.486fd9c9.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.e85a9b42.js",
     "runtime~main.js.map": "/static/js/runtime~main.e85a9b42.js.map",
-    "static/js/2.408faed8.chunk.js": "/static/js/2.408faed8.chunk.js",
-    "static/js/2.408faed8.chunk.js.map": "/static/js/2.408faed8.chunk.js.map",
+    "static/js/2.66294915.chunk.js": "/static/js/2.66294915.chunk.js",
+    "static/js/2.66294915.chunk.js.map": "/static/js/2.66294915.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ecc782e989542b9a546bc33db17f93f.js": "/precache-manifest.8ecc782e989542b9a546bc33db17f93f.js",
+    "precache-manifest.29b9539a526ac97c2222bd5a65928a80.js": "/precache-manifest.29b9539a526ac97c2222bd5a65928a80.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6fb33d6f.chunk.css.map": "/static/css/main.6fb33d6f.chunk.css.map",
-    "static/media/TegFarmsFamily.jpg": "/static/media/TegFarmsFamily.11ed5ef2.jpg",
-    "static/media/Home.css": "/static/media/TegFarmsFarm2.35c4ff44.jpg",
-    "static/media/TegFarmsStarted.jpeg": "/static/media/TegFarmsStarted.b0968fca.jpeg",
-    "static/media/TegFarmsTegridy.jpg": "/static/media/TegFarmsTegridy.75e32379.jpg",
+    "static/css/main.ebb22c2a.chunk.css.map": "/static/css/main.ebb22c2a.chunk.css.map",
+    "static/media/TegFarmsFarm.jpg": "/static/media/TegFarmsFarm.eefd18ed.jpg",
+    "static/media/TegFarmsFarm2.jpg": "/static/media/TegFarmsFarm2.35c4ff44.jpg",
     "static/media/TegridyWeed.jpg": "/static/media/TegridyWeed.0da7d18f.jpg",
-    "static/media/randyThanks.png": "/static/media/randyThanks.0c959ddb.png"
+    "static/media/cannabis.jpg": "/static/media/cannabis.4ad74b56.jpg",
+    "static/media/randyThanks.png": "/static/media/randyThanks.0c959ddb.png",
+    "static/media/swallow.jpg": "/static/media/swallow.8b208499.jpg"
   }
 }
