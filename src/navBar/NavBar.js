@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 
-import logo from '../photos/swallow.jpg'
+import logo from '../photos/companyLogo.png'
 
 class NavBar extends Component {
     constructor(){

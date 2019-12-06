@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
 
-import cannabis from '../photos/cannabis.jpg'
+import cannabis from '../photos/TegFarmsTegridy.jpg'
 import farm from '../photos/TegFarmsFarm2.jpg'
 function Home(){
 
