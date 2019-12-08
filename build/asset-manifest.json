@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebb22c2a.chunk.css",
+    "main.css": "/static/css/main.4d3bd7b1.chunk.css",
     "main.js": "/static/js/main.3208a599.chunk.js",
     "main.js.map": "/static/js/main.3208a599.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.e85a9b42.js",
@@ -8,9 +8,9 @@
     "static/js/2.66294915.chunk.js": "/static/js/2.66294915.chunk.js",
     "static/js/2.66294915.chunk.js.map": "/static/js/2.66294915.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9547d19a6e1fb8c54a5bb995d6f2b1a2.js": "/precache-manifest.9547d19a6e1fb8c54a5bb995d6f2b1a2.js",
+    "precache-manifest.a56d2adce9c797a72c8cb81724c86dd4.js": "/precache-manifest.a56d2adce9c797a72c8cb81724c86dd4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ebb22c2a.chunk.css.map": "/static/css/main.ebb22c2a.chunk.css.map",
+    "static/css/main.4d3bd7b1.chunk.css.map": "/static/css/main.4d3bd7b1.chunk.css.map",
     "static/media/TegFarmsFarm2.jpg": "/static/media/TegFarmsFarm2.35c4ff44.jpg",
     "static/media/TegFarmsStarted.jpeg": "/static/media/TegFarmsStarted.b0968fca.jpeg",
     "static/media/TegFarmsTegridy.jpg": "/static/media/TegFarmsTegridy.75e32379.jpg",
