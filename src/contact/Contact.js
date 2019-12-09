@@ -27,10 +27,11 @@ class Contact extends Component {
         }
         
         alert(
-            `Name: ${newMessage.name}
-            Email: ${newMessage.email}
-            Message: ${newMessage.message}
-            ` //Can i give a thumbs up picture of randy marsh
+            // `Name: ${newMessage.name}
+            // Email: ${newMessage.email}
+            // Message: ${newMessage.message}
+            // ` //Can i give a thumbs up picture of randy marsh
+            "Thank you for taking the time to contact me. However, this does not actually work at the moment. Please visit my Github profile, or visit my personal website at jeffreyseneff.com"
         )
         
         this.setState({name: "", email: "", message:  "", display:"block"})
