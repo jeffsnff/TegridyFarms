@@ -18,9 +18,9 @@ function About(){
                     <div className="morestuff">
                     We want to help you find the perfect strain to fit your needs. At Tegridy Farms, we string to bring Tegridy into every step of our process in order to give you the best experience possible.
                     </div>
-                    <button className="learnMore">
+                    {/* <button className="learnMore">
                         Learn More
-                    </button>
+                    </button> */}
                 </div>
 
             </div>

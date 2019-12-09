@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './Home.css'
 
 import cannabis from '../photos/TegFarmsTegridy.jpg'
 import farm from '../photos/TegFarmsFarm2.jpg'
 function Home(){
-
     return (
     <div className="main-containter">
 
@@ -17,9 +17,9 @@ function Home(){
             <div className="about">
                     We want to help you find the perfect strain to fit your needs. At Tegridy Farms, we strive to bring Tegridy into every step of our pricess in order to give you the best experiencd possible.
             </div>
-            <button className="button">
+            <Link className="button" to='/ProductList'>
                 View All Strains
-            </button>
+            </Link>
 
         </div>
 
@@ -33,9 +33,9 @@ function Home(){
                     </p>
                     
                 </div> 
-                <button className="rrrhhh" onClick={() => console.log("hello")}>
+                <Link className="rrrhhh" to="/About">
                     LEARN MORE
-                </button>
+                </Link>
             </div>
             
         </div>
