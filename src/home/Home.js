@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import './Home.css'
 
+import Button from '../button/Button.js'
+
 import cannabis from '../photos/TegFarmsTegridy.jpg'
 import farm from '../photos/TegFarmsFarm2.jpg'
 function Home(){
@@ -17,9 +19,14 @@ function Home(){
             <div className="about">
                     We want to help you find the perfect strain to fit your needs. At Tegridy Farms, we strive to bring Tegridy into every step of our pricess in order to give you the best experiencd possible.
             </div>
-            <Link className="button" to='/ProductList'>
+            {/* <Link className="button" to='/ProductList'>
                 View All Strains
-            </Link>
+            </Link> */}
+            <Button 
+                text='View All Strains'
+                destination='/ProductList'
+                name='button'
+            />
 
         </div>
 
@@ -33,9 +40,14 @@ function Home(){
                     </p>
                     
                 </div> 
-                <Link className="rrrhhh" to="/About">
+                {/* <Link className="rrrhhh" to="/About">
                     LEARN MORE
-                </Link>
+                </Link> */}
+                <Button 
+                    name='rrrhhh'
+                    destination='/About'
+                    text="LEARN MORE"
+                />
             </div>
             
         </div>
