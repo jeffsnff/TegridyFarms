@@ -20,6 +20,13 @@ class NavBar extends Component {
     render(){
         return(
             <div className="headerContainer">
+                <div className="mobile-menu">
+                    <img className="mobile-Icon" src={logo} />
+                    <div className="mobile-navigation">
+
+                    </div>
+                </div>
+                
                 <ul className="navigation-menu">
                     <div className='logo'>
                         <Link to="/"><img className='icon' src={logo} alt="logo" /></Link>
