@@ -41,6 +41,7 @@ class Contact extends Component {
             <div className="entryForm">
                 <h1>Drop Us A Line</h1>
                 <div className="twoLine"></div>
+                <div className="contactForm">
                 <form onSubmit={this.handleSubmit}>
                     <h3>Leave Your Message Below</h3>
                     <input name="name" value={this.state.name} onChange={this.handleChange} type="text" placeholder="Full Name"></input><br/>
@@ -48,6 +49,7 @@ class Contact extends Component {
                     <input name="message" value={this.state.message} onChange={this.handleChange} className="letter" type="text" placeholder="Type Here"></input><br/>
                     <button>Submit Message</button><br/>
                 </form>
+                </div>
                 <div className="thankPic">
                         <img value={this.state.display} onChange={this.handleChange} style={{display:this.state.display}}src={randyThanks} alt="Thanksssss"/>
                 </div>
