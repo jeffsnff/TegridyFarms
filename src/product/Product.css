@@ -211,11 +211,16 @@
 
 /* Screens bigger than 1441px (desktop) */
 @media(min-width: 1441px){
+  .maincontain {
+    border: 1px solid red;
+    margin: auto;
+    width: 80vw;
+  }
 	.productContainer {
 		justify-content: space-around;
 		display: flex;
 		flex-wrap: wrap;
-		width: 100vw;
+		width: 80vw;
 		padding: 10px;
 		height: 100vh;
 		overflow: scroll;

@@ -119,9 +119,11 @@ class ProductList extends Component {
 						<input className="searchField"  type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search Products"></input>
 					</div> 
 				</div>
-				<div className="productContainer">
-					{mappedFilter}
-				</div>
+        <div className="maincontain">
+            <div className="productContainer">
+              {mappedFilter}
+            </div>
+        </div>
 			</div>
 			
 		)
