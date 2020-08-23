@@ -45,7 +45,7 @@ class ProductDetail extends Component {
                         <div>
                             <img src={img} alt={img} />
                             <h1>{foundItem.name}</h1>
-                            <h3>{foundItem.race}</h3>
+                            <h3>{foundItem.race.toUpperCase()}</h3>
                             <h2>Description</h2> 
                             <p>{this.state.description}</p>
                         </div>
