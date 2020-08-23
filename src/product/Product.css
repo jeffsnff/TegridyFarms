@@ -212,7 +212,6 @@
 /* Screens bigger than 1441px (desktop) */
 @media(min-width: 1441px){
   .maincontain {
-    border: 1px solid red;
     margin: auto;
     width: 80vw;
   }
