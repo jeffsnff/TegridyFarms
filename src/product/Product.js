@@ -11,7 +11,7 @@ const Product = props => {
                     <img src={props.img} alt={props.img} />
                     <h2>{props.name}</h2>
                     <div>
-                        <h4>{props.race}</h4>
+                        <h4>{props.race.toUpperCase()}</h4>
                     </div>
                 </div> 
                 </Link>
