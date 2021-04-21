@@ -10,10 +10,11 @@ class ProductList extends Component {
 		super()
 		this.state = {
 			products: [],
+      pageination: '',
 			filtered: [],
 			search: ""
 		}
-		this.handleChange = this.handleChange.bind(this)
+		// this.handleChange = this.handleChange.bind(this)
 	}
 
 	 componentDidMount(race){
@@ -23,105 +24,34 @@ class ProductList extends Component {
 			 this.getStrains(race)
 		 }
 	}
-	
-	getProducts = () => {
-			axios.get(`http://strainapi.evanbusse.com/${process.env.REACT_APP_KEY}/strains/search/all`)
-			.then(response => this.setState({products: Object.keys(response.data).map((name) => {
-				return {
-					name:name,
-					...response.data[name]
-				}
-			}),
-			filtered: Object.keys(response.data).map((name) => {
-				return {
-					name:name,
-					...response.data[name]
-				}
-			})
-			}))
-			.catch(error => console.log(error))	
-	}
-	getStrains = (race) => {
-		axios.get(`http://strainapi.evanbusse.com/${process.env.REACT_APP_KEY}/strains/search/race/${race}`)
-			.then(response => this.setState({products: Object.keys(response.data).map((name) => {
-				return {
-					name:name,
-					...response.data[name]
-				}
-			}),
-			filtered: Object.keys(response.data).map((name) => {
-				return {
-					name:name,
-					...response.data[name]
-				}
-			})
-			}))
-			.catch(error => console.log(error))
-	}
 
-	handleChange = (event) => {
-		this.setState({
-			search: event.target.value
-		})
-		let currentList = []
-		let newList = []
-		if(event.target.value !== ""){
-			currentList = this.state.products
-			newList = currentList.filter((item) => {
-				const lc = item.name.toString().toLowerCase()
-				const filter = event.target.value.toLowerCase()
-
-				return lc.includes(filter)
-				
-			})
-		}else {
-			newList = this.props.items
-		}
-		this.setState({
-			filtered: newList
-		})
-	}
-	
-	resetFilter = () => {
-		this.setState(prevState => {
-			return {filtered: prevState.products}
-		})
-	}
+  getProducts = () => {
+    axios.get('https://api.otreeba.com/v1/strains')
+      .then((res) => {
+        this.setState({products: res.data.data})
+        this.setState({pageination: res.data.meta.pagination.links.next})
+      })
+      .catch(err => console.log(err))
+  }
 
 	render(){
-		let mappedFilter
-		if(this.state.filtered){
-			mappedFilter = this.state.filtered.map(filter => 
-				<Product 
-					key={filter.id}
-					race={filter.race}
-					id={filter.id}
-					name={filter.name}
-					img={TegridyWeed}
-					array={this.state.filtered}
-				/>)
-				console.log(mappedFilter)
-		}else{
-			this.resetFilter()
-		} 
 
+    let mappedProducts = this.state.products.map((product) => (
+      <Product
+        key={product.ocpc}
+        name={product.name}
+        img={product.image}
+      />
+    ))
+    
 		return (
 			<div>
 				<h1 className="shhhh">Find Your Strain</h1>
-				<div className="shhLine"></div>
-				<div className="filter">
-					{/* <button onClick={() => this.componentDidMount()}>All</button>
-					<button onClick={() => this.componentDidMount('indica')}>Indica</button>
-					<button onClick={() => this.componentDidMount('sativa')}>Sativa</button>
-					<button onClick={() => this.componentDidMount('hybrid')}>Hybrid</button> */}
-					<div className="search">
-						
-						<input className="searchField"  type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search Products"></input>
-					</div> 
-				</div>
         <div className="maincontain">
             <div className="productContainer">
-              {mappedFilter}
+              {
+                mappedProducts
+              }
             </div>
         </div>
 			</div>
