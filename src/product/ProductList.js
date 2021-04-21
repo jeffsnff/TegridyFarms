@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import './Product.css';
 import TegridyWeed from '../photos/TegridyWeed.jpg'
-import Product from './Product.js';
+import ProductCard from './ProductCard.js';
 
 
 class ProductList extends Component {
@@ -10,7 +10,8 @@ class ProductList extends Component {
 		super()
 		this.state = {
 			products: [],
-      pageination: '',
+      nextPageination: '',
+      prevPageination: '',
 			filtered: [],
 			search: ""
 		}
@@ -29,15 +30,32 @@ class ProductList extends Component {
     axios.get('https://api.otreeba.com/v1/strains')
       .then((res) => {
         this.setState({products: res.data.data})
-        this.setState({pageination: res.data.meta.pagination.links.next})
+        this.setState({nextPageination: res.data.meta.pagination.links.next})
       })
       .catch(err => console.log(err))
   }
 
-	render(){
+  getNextPage = () => {
+    axios.get(this.state.nextPageination)
+      .then((res) => {
+        this.setState({products: res.data.data})
+        this.setState({nextPageination: res.data.meta.pagination.links.next})
+        this.setState({prevPageination: res.data.meta.pagination.links.previous})
+      })
+  }
+  getPrevPage = () => {
+    axios.get(this.state.prevPageination)
+      .then((res) => {
+        this.setState({products: res.data.data})
+        this.setState({nextPageination: res.data.meta.pagination.links.next})
+        this.setState({prevPageination: res.data.meta.pagination.links.previous})
+      })
+  }
 
+	render(){
+    console.log(this.state.nextPageination)
     let mappedProducts = this.state.products.map((product) => (
-      <Product
+      <ProductCard
         key={product.ocpc}
         name={product.name}
         img={product.image}
@@ -52,7 +70,10 @@ class ProductList extends Component {
               {
                 mappedProducts
               }
+              
             </div>
+            <button onClick={() => this.getNextPage()}>Next</button>
+            <button onClick={() => this.getPrevPage()}>Back</button>
         </div>
 			</div>
 			
