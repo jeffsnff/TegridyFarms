@@ -53,7 +53,6 @@ class ProductList extends Component {
   }
 
 	render(){
-    console.log(this.state.nextPageination)
     let mappedProducts = this.state.products.map((product) => (
       <ProductCard
         key={product.ocpc}
