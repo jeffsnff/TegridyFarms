@@ -59,6 +59,7 @@ class ProductList extends Component {
         key={product.ocpc}
         name={product.name}
         img={product.image}
+        info={product}
       />
     ))
     
@@ -72,8 +73,8 @@ class ProductList extends Component {
               }
               
             </div>
-            <button onClick={() => this.getNextPage()}>Next</button>
             <button onClick={() => this.getPrevPage()}>Back</button>
+            <button onClick={() => this.getNextPage()}>Next</button>
         </div>
 			</div>
 			
