@@ -30,7 +30,7 @@ class ProductDetail extends Component {
   }
   
   render(){
-    const mappedLineage = this.state.lineage.map((line )=> <li key={line.slice(0,2)}>{line}</li>)
+    const mappedLineage = this.state.lineage.map((line )=> <li className='lineage-item' key={line.slice(0,2)}>{line}</li>)
 
     const thing = this.state.image.split('/')
     const lastItem = thing[thing.length -1]
@@ -40,18 +40,21 @@ class ProductDetail extends Component {
     }
 
     return(
-      <div className="details">
+      <div className="details-maincontainer">
         <h1 className="productName">
           {this.state.name}
         </h1>
-        <div className="lineageDiv">
-          <ul className="lineageList">
+        
+        <div className="product-image-container">
+          <img className='product-image'src={this.state.image} alt='Image' />
+        </div> 
+
+        {/* <div className="lineage-container"> */}
+        <ul className="lineage-list">
             {mappedLineage}
           </ul>
-        </div>
-        <div>
-          <img src={this.state.image} alt='Image' />
-        </div> 
+        {/* </div> */}
+        
       </div>  
     )
   }

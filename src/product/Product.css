@@ -10,7 +10,7 @@
 		overflow: scroll;
 	}
 	
-	.product {
+	.product-card {
 		color: #ffffff;
 		margin: 10px;
 		box-shadow: 16px 16px 24px rgba(0, 0, 0, 0.25);
@@ -23,40 +23,18 @@
 		background: linear-gradient(0deg, #3D3A3B 0%, rgba(61, 58, 59, 0.24) 66.08%);
 
 	}
-	.product > img {
+	.product-card > img {
 		border-radius: 8px;
 		height: 320px;
 		width: 244px;
 	}
-	.product > h2{
+	.product-card > h2{
 		margin-left: 15px;
 		position: relative;
 		top: 125px;
 		z-index: 1;
 	}
-	.product > div {
-		position: relative;
-		top: 88px;
-		background-color: #99BF8F;
-		height: 48px;
-		width: 100%;
-		border-bottom-right-radius: 8px;
-		border-bottom-left-radius: 8px;
-	}
-	.product > div > h4{
-		font-family: Proxima Nova;
-		font-weight: bold;
-		font-size: 16px;
-		text-align: center;
-	}
-	.shhLine{
-		border: 1px solid black;
-		width: 159px;
-		position: relative;
-		left: 45%;
-		margin-top: 20px;
-	}
-	.shhhh{
+	.product-page-header{
 		font-family: Proxima Nova;
 		font-weight: bold;
 		font-size: 60px;
@@ -65,31 +43,40 @@
 		padding-top: 10%;
 		text-align: center;
 	}
-	.filter{
-		padding-top: 5%;
-	}
-	.search{
-		position: relative;
-		left: 26.5%;
-		width: 679px;
-		height: 104px;
+	.details-maincontainer{
+    /* border: 2px solid blue; */
+    height: 100vh;
 		text-align: center;
-		background-color: #667D60;
-		margin-bottom: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 	}
-	.searchField{
-		font-size: 26px;
-		border-radius: 8px;
-	}
-	.filter > button {
-		padding: 1%;
-		border: none;
-	}
-	.details{
-		padding-top: 110px;
-		text-align: center;
-	}
-	.effects{
+  .productName{
+    /* border: 1px solid green; */
+    font-size: 5rem;
+  }
+  .product-image-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: left;
+  }
+  .product-image{
+    height: 10rem;
+  }
+  .lineage-list{
+    border: 1px solid green;
+    display: inline-block; 
+    text-align: right;
+  }
+  .lineage-item{
+    text-align: left; 
+    border: 1px solid red;
+    width: 10%;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+	/* .effects{
 		background-color: #F0F0F0;
 		height: 688px;
 		width: 100vw;
@@ -128,8 +115,8 @@
 		width: 130px;
 		list-style: none;
 		text-align: left;
-	}
-	.info{
+	} */
+	/* .info{
 		margin-top: 10%;
 		width: 100vw;
 		height: 688px;
@@ -205,12 +192,12 @@
 		text-align: left;
 		letter-spacing: 0.5px;
 		color: #3d3a3b;
-	}
+	} */
 	
 }
 
 /* Screens bigger than 1441px (desktop) */
-@media(min-width: 1441px){
+/* @media(min-width: 1441px){
   .maincontain {
     margin: auto;
     width: 80vw;
@@ -423,4 +410,4 @@
 		letter-spacing: 0.5px;
 		color: #3d3a3b;
 	}
-}
+} */

@@ -64,7 +64,7 @@ class ProductList extends Component {
     
 		return (
 			<div>
-				<h1 className="shhhh">Find Your Strain</h1>
+				<h1 className="product-page-header">Find Your Strain</h1>
         <div className="maincontain">
             <div className="productContainer">
               {

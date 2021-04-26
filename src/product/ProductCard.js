@@ -15,7 +15,7 @@ const Product = props => {
         
   return (
     <Link to={{pathname:`/ProductDetail/${props.name}`, state: {id:props.info.ocpc, array:props.array, img:props.img}}}>
-      <div className="product">
+      <div className="product-card">
         <img src={image} alt={props.img} />
         <h2>{props.name}</h2>
       </div> 
