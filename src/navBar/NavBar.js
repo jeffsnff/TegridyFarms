@@ -34,7 +34,7 @@ class NavBar extends Component {
  
                     <div className="navigation">
                         <div className="strainsDiv">
-                            <Link className='strainsLink' to="/ProductList">Strains</Link>
+            {/*<Link className='strainsLink' to="/ProductList">Strains</Link>*/}
                             {/* {
                                 this.state.toggle ?
                                     <div 
