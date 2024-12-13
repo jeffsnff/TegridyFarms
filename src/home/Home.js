@@ -30,11 +30,11 @@ class Home extends Component{
                 {/* <Link className="button" to='/ProductList'>
                     View All Strains
                 </Link> */}
-                <Button 
+        {/*<Button 
                     text='View All Strains'
                     destination='/ProductList'
                     name='button'
-                />
+                /> */}
 
             </div>
 
